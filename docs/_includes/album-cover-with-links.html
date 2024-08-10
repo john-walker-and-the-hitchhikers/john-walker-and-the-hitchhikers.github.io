@@ -1,0 +1,59 @@
+<div class="album-with-links">
+    <div class="album-cover">
+    {% if include.href %}
+        <a href="{{include.href}}">
+            <img src="{{include.album.cover}}" alt="{{include.title}}" />
+        </a>
+    {% else %}
+        <img src="{{include.album.cover}}" alt="{{include.title}}" />
+    {% endif %}
+        {% if include.message %}
+            <div>{{include.message}}</div>
+        {% endif %}
+    </div>
+
+    <ul class="stream-links">
+        {% include album-stream-badge.html
+            href=include.streaming.bandcamp
+            class='stream-bandcamp'
+            img_src='/assets/images/streaming/bandcamp.png'
+            img_alt='Stream on Bandcamp' %}
+
+        {% include album-stream-badge.html
+            href=include.streaming.spotify
+            class='stream-spotify'
+            img_src='/assets/images/streaming/spotify.png'
+            img_alt='Stream on Spotify' %}
+
+        {% include album-stream-badge.html
+            href=include.streaming.apple
+            class='stream-apple'
+            img_src='/assets/images/streaming/apple.png'
+            img_alt='Stream on Apple Music' %}
+
+        {% include album-stream-badge.html
+            href=include.streaming.youtube
+            class='stream-youtube'
+            img_src='/assets/images/streaming/youtube.png'
+            img_alt='Stream on YouTube' %}
+
+        {% include album-stream-badge.html
+            href=include.streaming.amazon
+            class='stream-amazon'
+            img_src='/assets/images/streaming/amazon.png'
+            img_alt='Stream on Prime Music' %}
+
+        {% include album-stream-badge.html
+            href=include.streaming.tidal
+            class='stream-tidal'
+            img_src='/assets/images/streaming/tidal.png'
+            img_alt='Stream on Tidal' %}
+
+        {% include album-stream-badge.html
+            href=include.streaming.deezer
+            class='stream-deezer'
+            img_src='/assets/images/streaming/deezer.png'
+            img_alt='Stream on Deezer' %}
+
+    </ul>
+</div>

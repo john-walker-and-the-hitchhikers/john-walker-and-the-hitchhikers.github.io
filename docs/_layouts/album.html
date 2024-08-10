@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body id="album">
+      {%- include header.html -%}
+
+      <div id="content" class="full-width">
+          {% include album-cover-with-links.html
+              title=page.title
+              album=page.album
+              message=page.message
+              streaming=page.streaming %}
+
+          {{ content }}
+      </div>
+
+      {%- include footer.html -%}
+
+  </body>
+
+</html>

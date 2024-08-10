@@ -3,6 +3,14 @@ title: Welcome
 layout: home
 ---
 
-{: .album-with-links}
-![05_john-walker-and-the-hitchhikers-are-ruining-it-for-all-of-us.jpg](assets/images/albums/05_john-walker-and-the-hitchhikers-are-ruining-it-for-all-of-us.jpg){: .album-cover}
-
+{% assign sorted_pages = site.pages | sort:"order" %}
+{%- for p in site.pages -%}
+    {%- if p.album -%}
+        {% include album-cover-with-links.html
+            title=p.title
+            album=p.album
+            href=p.url
+            message=p.message
+            streaming=p.streaming  %}
+    {%- endif -%}
+{%- endfor -%}
