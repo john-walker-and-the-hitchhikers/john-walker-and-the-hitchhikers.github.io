@@ -1,5 +1,5 @@
 ---
-permalink: /why-can't-i-find-a-normal-john-walker-and-the-hitchhikers-like-everyone-else
+permalink: /why-cant-i-find-a-normal-john-walker-and-the-hitchhikers-like-everyone-else
 title: Why Can't I Find a Normal John Walker and the Hitchhikers Like Everyone Else
 layout: album
 order: 4
