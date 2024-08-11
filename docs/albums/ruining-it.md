@@ -1,5 +1,5 @@
 ---
-permalink: /albums/ruining-it
+permalink: /john-walker-and-the-hitchhikers-are-ruining-it-for-all-of-us
 title: John Walker and the Hitchhikers Are Ruining It for All of Us
 layout: album
 order: 5

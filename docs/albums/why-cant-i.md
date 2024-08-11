@@ -1,6 +1,6 @@
 ---
-permalink: /albums/why-cant-i
-title: John Walker and the Hitchhikers Are Ruining It for All of Us
+permalink: /why-can't-i-find-a-normal-john-walker-and-the-hitchhikers-like-everyone-else
+title: Why Can't I Find a Normal John Walker and the Hitchhikers Like Everyone Else
 layout: album
 order: 4
 album:
