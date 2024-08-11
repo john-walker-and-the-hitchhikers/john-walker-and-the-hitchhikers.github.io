@@ -1,4 +1,5 @@
 ---
+permalink: /albums/why-cant-i
 title: John Walker and the Hitchhikers Are Ruining It for All of Us
 layout: album
 order: 4
@@ -14,5 +15,3 @@ streaming:
     tidal: https://listen.tidal.com/album/258905201
     deezer: https://www.deezer.com/us/album/373407297
 ---
-
-Album drops August 11, 2024!
