@@ -6,7 +6,6 @@ order: 5
 album:
     cover: /assets/images/albums/john-walker-and-the-hitchhikers-are-ruining-it-for-all-of-us.jpg
     year: 2024
-message: Coming Aug 11, 2024
 streaming:
   bandcamp: https://johnwalkerandthehitchhikers.bandcamp.com
   spotify: https://open.spotify.com/album/4GXmYIOhKEPlDZk3Lm1cml
